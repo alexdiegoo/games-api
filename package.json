@@ -1,0 +1,11 @@
+{
+  "name": "games-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:alexdiegoo/games-api.git",
+  "author": "alexdiegoo <alex.diegosn10@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
