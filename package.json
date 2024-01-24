@@ -5,7 +5,14 @@
   "repository": "git@github.com:alexdiegoo/games-api.git",
   "author": "alexdiegoo <alex.diegosn10@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "express": "^4.18.2"
+  "scripts": {
+    "dev": "tsnd --exit-child --respawn --transpile-only --ignore-watch node_modules src/server.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "express": "^4.18.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
   }
 }
