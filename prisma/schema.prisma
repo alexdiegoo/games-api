@@ -18,7 +18,7 @@ model Game {
   platform    String
   developer   String
   releaseData String
-  model       String
+  mode       String
   createdAt   DateTime @default(now())
   updatedAt   DateTime @default(now())
 }
