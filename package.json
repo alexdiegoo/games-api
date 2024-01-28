@@ -49,6 +49,7 @@
   },
   "dependencies": {
     "@prisma/client": "^5.8.1",
+    "celebrate": "^15.0.3",
     "reflect-metadata": "^0.2.1",
     "tsyringe": "^4.8.0"
   }
